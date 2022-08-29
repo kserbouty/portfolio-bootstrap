@@ -1,0 +1,11 @@
+# Default
+*               text=auto
+# Explicit
+*.css           text eol=lf
+*.html          text eol=lf
+*.js            text eol=lf
+*.md            text eol=lf
+# Git
+.gitattributes  text eol=lf
+# Binaries
+*.png           binary
