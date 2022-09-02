@@ -74,7 +74,7 @@ hr {
 }
 
 #skills {
-    padding: 9em 0 4em 0;
+    padding: 10em 0 2em 0;
     background-color: #545678;
 }
 
@@ -99,7 +99,7 @@ hr {
 }
 
 #projects {
-    padding: 8em 0 1em 0;
+    padding: 9em 0 1em 0;
     background-color: #545678;
 }
 
@@ -158,13 +158,16 @@ h3 {
     color: #9bc6c4;
 }
 
+#project-wiki {
+    text-decoration: none;
+}
+
 #archives {
-    padding: 8em 0 14em 0;
+    padding: 8em 0 16em 0;
     background-color: #545678;
 }
 
 #archives .card {
-
     height: 250px;
     width: 500px;
     margin-bottom: 5em;
