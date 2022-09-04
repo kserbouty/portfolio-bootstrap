@@ -1,5 +1,7 @@
 # Portfolio
 
+> *Work in progress.*
+
 ## Introduction
 
 Showcase website available on mobile, tablet and desktop. Display an overview of my projects with links to the source code.

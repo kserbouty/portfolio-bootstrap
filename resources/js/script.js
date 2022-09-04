@@ -29,7 +29,7 @@ const lang = {
         project_info_4: "Prototype of Another Devboard to practice PHP 7 without framework.",
         project_info_5: "Module to buy vehicles, in order to combine MVC with others patterns.",
         project_info_6: "Showcase website available on mobile, tablet and desktop. Display an overview of my projects with links to the source code.",
-        project_info_7: "Project management software started as an alternative of the Kanban system. Provide a dashboard to display scenarios, with task management for each iteration.",
+        project_info_7: "Project management application started as an alternative of the Kanban system. Provide a dashboard to display scenarios, with task management for each iteration.",
         in_progress: "(In progress)"
     },
     french: {
