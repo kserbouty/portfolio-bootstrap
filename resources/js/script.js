@@ -67,7 +67,7 @@ function englishTranslation() {
     project_info_6.textContent = lang['english'].project_info_6;
     project_info_7.textContent = lang['english'].project_info_7;
     in_progress.textContent = lang['english'].in_progress;
-};
+}
 
 function frenchTranslation() {
     nav_english.style.display = 'flex';
@@ -86,13 +86,13 @@ function frenchTranslation() {
     project_info_6.textContent = lang['french'].project_info_6;
     project_info_7.textContent = lang['french'].project_info_7;
     in_progress.textContent = lang['french'].in_progress;
-};
+}
 
-nav_english.addEventListener('click', function (event) {
+nav_english.addEventListener('click', function () {
     return englishTranslation();
 });
 
-nav_french.addEventListener('click', function (event) {
+nav_french.addEventListener('click', function () {
     return frenchTranslation();
 });
 
@@ -129,6 +129,6 @@ window.addEventListener('load', checkNavigator);
 
 let toggler = document.getElementsByClassName('navbar-collapse');
 
-toggler[0].addEventListener('click', function (event) {
+toggler[0].addEventListener('click', function () {
     return toggler[0].classList.remove('show');
 })

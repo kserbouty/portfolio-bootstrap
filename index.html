@@ -19,7 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
         </script>
-    <title>Karim Serbouty | PHP/Laravel Web Developer</title>
+    <title>Karim Serbouty | PHP/Symfony Web Developer</title>
 </head>
 
 <body>
@@ -35,19 +35,19 @@
                 <div id="nav-menu" class="navbar-collapse justify-content-center collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-3">
-                            <a id="nav-home" class="nav-link" arria-current="home" href="#"></a>
+                            <a id="nav-home" class="nav-link" href="#"></a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a id="nav-skills" class="nav-link" arria-current="projects" href="#skills"></a>
+                            <a id="nav-skills" class="nav-link" href="#skills"></a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a id="nav-projects" class="nav-link" arria-current="contact" href="#projects"></a>
+                            <a id="nav-projects" class="nav-link" href="#projects"></a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a id="nav-contact" class="nav-link" arria-current="archives" href="#archives">Archives</a>
+                            <a class="nav-link" href="#archives">Archives</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a id="nav-contact" class="nav-link" arria-current="contact" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li id="nav-english" class="mx-3 py-1 px-3">
                             <a><img src="resources/images/english-flag.png" alt="English translation" /></a>
@@ -67,7 +67,7 @@
             <div class="container text-center">
                 <h1>KARIM SERBOUTY</h1>
                 <p id="header-subtitle" class="mt-4"></p>
-                <div id="social-media" class="row text-center justify-content-center mt-5">
+                <div class="social-media row text-center justify-content-center mt-5">
                     <a class="fa-brands fa-github fs-1 col-1 mx-2" href="https://github.com/kserbouty" target="_blank">
                     </a>
                     <a class="fa-brands fa-linkedin-in fs-1 col-1 mx-2" href="https://www.linkedin.com/in/kserbouty/"
@@ -92,37 +92,49 @@
                     <div class="card m-3">
                         <div class="card-body">
                             <i class="fa-brands fa-php"></i>
-                            <p id="skill-info">PHP</p>
-                        </div>
-                    </div>
-                    <div class="card m-3">
-                        <div class="card-body">
-                            <i class="fa-brands fa-laravel"></i>
-                            <p id="skill-info">Laravel</p>
+                            <p class="skill-info">PHP</p>
                         </div>
                     </div>
                     <div class="card m-3">
                         <div class="card-body">
                             <i class="fa-brands fa-symfony"></i>
-                            <p id="skill-info">Symfony</p>
+                            <p class="skill-info">Symfony</p>
+                        </div>
+                    </div>
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <i class="fa-solid fa-database"></i>
+                            <p class="skill-info">SQL</p>
                         </div>
                     </div>
                     <div class="card m-3">
                         <div class="card-body">
                             <i class="fa-brands fa-css3"></i>
-                            <p id="skill-info">CSS</p>
+                            <p class="skill-info">CSS</p>
+                        </div>
+                    </div>
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <p class="skill-info">Bootstrap</p>
                         </div>
                     </div>
                     <div class="card m-3">
                         <div class="card-body">
                             <i class="fa-brands fa-js"></i>
-                            <p id="skill-info">JavaScript</p>
+                            <p class="skill-info">JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <i class="fa-brands fa-linux"></i>
+                            <p class="skill-info">Linux</p>
                         </div>
                     </div>
                     <div class="card m-3">
                         <div class="card-body">
                             <i class="fa-brands fa-git"></i>
-                            <p id="skill-info">Git</p>
+                            <p class="skill-info">Git</p>
                         </div>
                     </div>
                 </div>
@@ -139,13 +151,14 @@
                     <div class="card-body">
                         <h3 class="card-title text-center">ANOTHER DEVBOARD</h3>
                         <p id="project-info-7" class="mb-4"></p>
-                        <div id="project-tags" class="d-inline-flex flex-row px-2">
+                        <div id="project-tags" class="project-tags d-inline-flex flex-row px-2">
                             <p id="in-progress" class="mb-0 fs-6 px-2 mx-1"></p>
-                            <p class="mb-0 fs-6 px-2 mx-1">Laravel 9</p>
+                            <p class="mb-0 fs-6 px-2 mx-1">Symfony 5</p>
                             <p class="mb-0 fs-6 px-2 mx-1">MySQL 8</p>
+                            <p class="mb-0 fs-6 px-2 mx-1">Bootstrap 5</p>
                         </div>
                     </div>
-                    <div id="project-links" class="container d-inline-flex flex-row justify-content-center">
+                    <div class="project-links container d-inline-flex flex-row justify-content-center">
                         <a href="https://github.com/kserbouty/another-devboard/tree/master/docs" type="button"
                             class="btn btn-outline-secondary my-3 mx-3" target="_blank">Documentation</a>
                         <a href="https://github.com/kserbouty/another-devboard" type="button"
@@ -156,14 +169,13 @@
                     <div class="card-body">
                         <h3 class="card-title text-center mb-3">PORTFOLIO</h3>
                         <p id="project-info-6" class="mb-4"></p>
-                        <div id="project-tags" class="d-inline-flex flex-row px-2">
+                        <div class="project-tags d-inline-flex flex-row px-2">
                             <p class="mb-0 fs-6 px-2 mx-1">Bootstrap 5</p>
-                            <p class="mb-0 fs-6 px-2 mx-1">CSS 3</p>
                             <p class="mb-0 fs-6 px-2 mx-1">HTML 5</p>
                             <p class="mb-0 fs-6 px-2 mx-1">JavaScript</p>
                         </div>
                     </div>
-                    <div id="project-links" class="container d-inline-flex flex-row justify-content-center">
+                    <div class="project-links container d-inline-flex flex-row justify-content-center">
                         <a href="https://github.com/kserbouty/portfolio" type="button"
                             class="btn btn-outline-secondary my-3" target="_blank">Github</a>
                     </div>
@@ -173,7 +185,7 @@
 
         <article id="archives">
             <div class="container">
-                <h2 id="projects-title" class="text-center">ARCHIVES</h2>
+                <h2 class="text-center">ARCHIVES</h2>
                 <div class="d-flex flex-row text-center">
                     <hr>
                 </div>
@@ -182,11 +194,11 @@
                         <div class="card-body">
                             <h3 class="card-title text-center mb-4">MVC PHP (2022)</h3>
                             <p id="project-info-5" class="mb-2"></p>
-                            <div id="project-tags" class="d-inline-flex flex-row px-2">
+                            <div class="project-tags d-inline-flex flex-row px-2">
                                 <p class="mb-0 fs-6 px-2 mx-1">PHP 8</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">MySQL 8</p>
                             </div>
-                            <div id="archives-links" class="container grid text-center">
+                            <div class="archives-links container grid text-center">
                                 <a href="https://github.com/kserbouty/mvc-php" type="button"
                                     class="col btn btn-outline-secondary my-3">Github</a>
                             </div>
@@ -196,12 +208,12 @@
                         <div class="card-body">
                             <h3 class="card-title text-center mb-4">DEVBOARD ARCHIVE (2021)</h3>
                             <p id="project-info-4" class="mb-2"></p>
-                            <div id="project-tags" class="d-inline-flex flex-row px-2">
+                            <div class="project-tags d-inline-flex flex-row px-2">
                                 <p class="mb-0 fs-6 px-2 mx-1">PHP 7</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">MySQL 8</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">Bootstrap 4</p>
                             </div>
-                            <div id="archives-links" class="container grid text-center">
+                            <div class="archives-links container grid text-center">
                                 <a href="https://github.com/kserbouty/devboard-archive" type="button"
                                     class="col btn btn-outline-secondary my-3" target="_blank">Github</a>
                             </div>
@@ -211,12 +223,12 @@
                         <div class="card-body">
                             <h3 class="card-title text-center mb-4">FRONTEND VUE (2021)</h3>
                             <p id="project-info-3" class="mb-2"></p>
-                            <div id="project-tags" class="d-inline-flex flex-row px-2">
+                            <div class="project-tags d-inline-flex flex-row px-2">
                                 <p class="mb-0 fs-6 px-2 mx-1">Vue.js 2</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">Bootstrap 4</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">Docker</p>
                             </div>
-                            <div id="archives-links" class="container grid text-center">
+                            <div class="archives-links container grid text-center">
                                 <a href="https://github.com/kserbouty/frontend-vuejs" type="button"
                                     class="col btn btn-outline-secondary my-3" target="_blank">Github</a>
                             </div>
@@ -226,11 +238,11 @@
                         <div class="card-body">
                             <h3 class="card-title text-center mb-4">BACKEND SYMFONY (2021)</h3>
                             <p id="project-info-2" class="mb-2"></p>
-                            <div id="project-tags" class="d-inline-flex flex-row px-2">
+                            <div class="project-tags d-inline-flex flex-row px-2">
                                 <p class="mb-0 fs-6 px-2 mx-1">Symfony 5</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">MySQL 8</p>
                             </div>
-                            <div id="archives-links" class="container grid text-center">
+                            <div class="archives-links container grid text-center">
                                 <a href="https://github.com/kserbouty/backend-symfony" type="button"
                                     class="col btn btn-outline-secondary my-3" target="_blank">Github</a>
                             </div>
@@ -240,14 +252,14 @@
                         <div class="card-body">
                             <h3 class="card-title text-center mb-4">PORTFOLIO ARCHIVE (2020)</h3>
                             <p id="project-info-1" class="mb-2"></p>
-                            <div id="project-tags" class="d-inline-flex flex-row px-2">
+                            <div class="project-tags d-inline-flex flex-row px-2">
                                 <p class="mb-0 fs-6 px-2 mx-1">CSS 3</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">HTML 5</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">JavaScript</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">Gulp</p>
                                 <p class="mb-0 fs-6 px-2 mx-1">Docker</p>
                             </div>
-                            <div id="archives-links" class="container grid text-center">
+                            <div class="archives-links container grid text-center">
                                 <a href="https://github.com/kserbouty/portfolio-archive" type="button"
                                     class="col btn btn-outline-secondary my-3" target="_blank">Github</a>
                             </div>
@@ -267,7 +279,7 @@
             <div class="d-flex justify-content-center my-4">
                 <p id="email" class="m-0">kserbouty.dev@protonmail.com</p>
             </div>
-            <div id="social-media" class="row text-center justify-content-center mt-5">
+            <div class="social-media row text-center justify-content-center mt-5">
                 <a class="fa-brands fa-github fs-1 col-1 mx-2" href="https://github.com/kserbouty" target="_blank">
                 </a>
                 <a class="fa-brands fa-linkedin-in fs-1 col-1 mx-2" href="https://www.linkedin.com/in/kserbouty/"
