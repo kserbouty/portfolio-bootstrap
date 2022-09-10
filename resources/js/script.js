@@ -23,13 +23,13 @@ const lang = {
         header_subtitle: "WELCOME TO MY JOURNEY AS A WEB DEVELOPER",
         skills_title: "SKILLS",
         projects_title: "PROJECTS",
-        project_info_1: "Prototype of my portfolio to practice frontend without framework.",
+        project_info_1: "Prototype of my portfolio in order to practice the frontend.",
         project_info_2: "API able to create, update or delete resources in JSON format.",
-        project_info_3: "Graphical user interface to manage resources from the Symfony API.",
-        project_info_4: "Prototype of Another Devboard to practice PHP 7 without framework.",
-        project_info_5: "Module to buy vehicles, in order to combine MVC with others patterns.",
-        project_info_6: "Showcase website available on mobile, tablet and desktop. Display an overview of my projects with links to the source code.",
-        project_info_7: "Project management application started as an alternative of the Kanban system. Provide a dashboard to display scenarios, with task management for each iteration.",
+        project_info_3: "Graphical interface connecting to the Symfony API to manage its resources.",
+        project_info_4: "Prototype of Another Devboard in order to practice PHP 7.",
+        project_info_5: "Vehicle purchase module in order to associate MVC with others patterns.",
+        project_info_6: "Showcase site available on mobile, tablet and desktop. Display an overview of my projects with links to the source code.",
+        project_info_7: "Project management application centered around user stories. Provide a dashboard and task management for each iteration.",
         in_progress: "(In progress)"
     },
     french: {
@@ -39,13 +39,13 @@ const lang = {
         header_subtitle: "BIENVENUE DANS MA JOURNÉE DE DÉVELOPPEUR WEB",
         skills_title: "COMPÉTENCES",
         projects_title: "PROJETS",
-        project_info_1: "Prototype de mon portfolio créée pour pratiquer le frontend sans framework.",
-        project_info_2: "API pour la création, mise à jour et suppression de données au format JSON.",
+        project_info_1: "Prototype de mon portfolio dans le but de pratiquer le frontend.",
+        project_info_2: "API capable de créer, mettre à jour et supprimer de ressources au format JSON.",
         project_info_3: "Interface graphique se connectant à l'API Symfony afin de gérer ses ressources.",
-        project_info_4: "Prototype de l'application Another Devboard créée pour pratiquer PHP 7 sans framework.",
-        project_info_5: "Module de commande de véhicules dans le but d'associer MVC avec différents patterns.",
+        project_info_4: "Prototype de Another Devboard dans le but de pratiquer PHP 7.",
+        project_info_5: "Module d'achat de véhicules dans le but d'associer MVC avec différents patterns.",
         project_info_6: "Site vitrine disponible sur mobile, tablette et bureau. Affiche un aperçu de mes projets avec les liens vers le code source.",
-        project_info_7: "Application de gestion de projets proposant une alternative au système Kanban. Fournis un tableau de bord affichant les récits utilisateurs, et une gestion des tâches pour chaque itération.",
+        project_info_7: "Application de gestion de projets centrée autour des récits utilisateurs. Fournis un tableau de bord et une gestion des tâches pour chaque itération.",
         in_progress: "(En cours)"
     }
 };
