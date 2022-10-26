@@ -1,7 +1,23 @@
+/** HTML **/
+
 body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
 }
+
+h2 {
+    color: #d3e6e5;
+}
+
+hr {
+    height: 3px;
+    width: 100vw;
+    margin: 1.5em 0 4em 0;
+    border: 0;
+    background-image: linear-gradient(to right, #545678, #d3e6e5, #545678);
+}
+
+/** NAVIGATION **/
 
 nav {
     background-color: #2f3252;
@@ -32,16 +48,18 @@ nav {
     border: none;
 }
 
-#header {
-    padding: 15em 0 13em 0;
-    color: #d3e6e5;
-    background-color: #2f3252;
-}
+/** HEADER **/
 
 h1 {
     color: #d3e6e5;
     font-family: "Roboto Mono", monospace;
     font-size: 2.7em;
+}
+
+#header {
+    padding: 15em 0 13em 0;
+    color: #d3e6e5;
+    background-color: #2f3252;
 }
 
 #header-subtitle {
@@ -50,38 +68,11 @@ h1 {
     letter-spacing: 2px;
 }
 
-.social-media a {
-    width: 70px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #d3e6e5;
-}
-
-#social-media a:hover {
-    color: #ffffff;
-}
-
-h2 {
-    color: #d3e6e5;
-}
-
-hr {
-    height: 3px;
-    width: 100vw;
-    margin: 1.5em 0 4em 0;
-    border: 0;
-    background-image: linear-gradient(to right, #545678, #d3e6e5, #545678);
-}
+/** SKILLS **/
 
 #skills {
     padding: 10em 0 2em 0;
     background-color: #545678;
-}
-
-.skill-info {
-    margin: -0.7em;
-    color: #9bc6c4;
-    font-size: 0.25em;
 }
 
 #skills .card {
@@ -98,6 +89,26 @@ hr {
     font-size: 4em;
 }
 
+.skill-info {
+    margin: -0.7em;
+    color: #9bc6c4;
+    font-size: 0.25em;
+}
+
+/** PROJECTS **/
+
+h3 {
+    padding: 0.3em;
+    color: #d3e6e5;
+    font-size: 1.5em;
+}
+
+h4 {
+    padding: 0.3em;
+    color: #d3e6e5;
+    font-size: 1.5em;
+}
+
 #projects {
     padding: 9em 0 1em 0;
     background-color: #545678;
@@ -112,17 +123,25 @@ hr {
     box-shadow: 0 3px 10px 0 #2f3252;
 }
 
-h3 {
-    padding: 0.3em;
-    color: #d3e6e5;
-    font-size: 1.5em;
-}
-
+#project-info-1,
+#project-info-2,
+#project-info-3,
+#project-info-4,
+#project-info-5,
+#project-info-6,
+#project-info-7,
 #project-info-8,
 #project-info-9,
-#project-info-10 {
-    height: 100px;
-    padding: 0 1.5em;
+#project-info-10,
+#project-info-11,
+#project-info-12 {
+    padding: 0.5em;
+    height: 70px;
+}
+
+
+#project-wiki {
+    text-decoration: none;
 }
 
 .project-links {
@@ -150,20 +169,12 @@ h3 {
     box-shadow: 0 3px 4px 0 #d3e6e5;
 }
 
-#in-progress {
-    color: #d3e6e5;
-}
-
 .project-tags {
     color: #9bc6c4;
 }
 
-#project-wiki {
-    text-decoration: none;
-}
-
 #archives {
-    padding: 8em 0 16em 0;
+    padding: 3em 0 10em 0;
     background-color: #545678;
 }
 
@@ -175,17 +186,6 @@ h3 {
     color: #d3e6e5;
     box-shadow: 0 3px 10px 0 #24243f;
     background-color: #2f3252;
-}
-
-#project-info-1,
-#project-info-2,
-#project-info-3,
-#project-info-4,
-#project-info-5,
-#project-info-6,
-#project-info-7 {
-    padding: 0.5em;
-    height: 70px;
 }
 
 .archives-links {
@@ -212,6 +212,25 @@ h3 {
     background-color: #2f3252;
     box-shadow: 0 3px 4px 0 #d3e6e5;
 }
+
+/** CONTACT **/
+
+#social-media a:hover {
+    color: #ffffff;
+}
+
+.social-media a {
+    width: 70px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #d3e6e5;
+}
+
+#in-progress {
+    color: #d3e6e5;
+}
+
+/** OTHERS **/
 
 footer {
     background-color: #2f3252;
