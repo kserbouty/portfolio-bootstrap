@@ -29,7 +29,6 @@ let project_info_8 = document.getElementById('project-info-8');
 let project_info_9 = document.getElementById('project-info-9');
 let project_info_10 = document.getElementById('project-info-10');
 let project_info_11 = document.getElementById('project-info-11');
-let project_info_12 = document.getElementById('project-info-12');
 
 const lang = {
     english: {
@@ -61,8 +60,7 @@ const lang = {
         project_info_9: "Authentication system with registration form and login.",
         project_info_10: "Graphical interface to provide a showcase of my projects.",
 
-        project_info_11: "E-commerce website for the purchase of articles, with a notification system linked to the customer's email.",
-        project_info_12: "Task management for web projects focused on user stories. Graphically represents features by priority, and organize them by domain."
+        project_info_11: "Task management for web projects focused on user stories. Graphically represents features by priority, and organize them by domain."
     },
     french: {
         nav_home: "Accueil",
@@ -93,8 +91,7 @@ const lang = {
         project_info_9: "Système d'authentification avec formulaires d'inscription et de connexion.",
         project_info_10: "Interface graphique pour la présentation de mes projets.",
         
-        project_info_11: "Site web e-commerce pour l'achat d'articles, avec un système de notification lié à l'email du client.",
-        project_info_12: "Gestion des tâches pour projets web centré sur les récits utilisateurs. Permets de représenter les fonctionnalités graphiquement par ordre de priorité et de les organiser par domaines."
+        project_info_11: "Gestion des tâches pour projets web centré sur les récits utilisateurs. Permets de représenter les fonctionnalités graphiquement par ordre de priorité et de les organiser par domaines."
     }
 };
 
@@ -130,7 +127,6 @@ function englishTranslation() {
     project_info_9.textContent = lang['english'].project_info_9;
     project_info_10.textContent = lang['english'].project_info_10;
     project_info_11.textContent = lang['english'].project_info_11;
-    project_info_12.textContent = lang['english'].project_info_12;
 }
 
 function frenchTranslation() {
@@ -165,7 +161,6 @@ function frenchTranslation() {
     project_info_9.textContent = lang['french'].project_info_9;
     project_info_10.textContent = lang['french'].project_info_10;
     project_info_11.textContent = lang['french'].project_info_11;
-    project_info_12.textContent = lang['french'].project_info_12;
 }
 
 nav_english.addEventListener('click', function () {
