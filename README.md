@@ -1,20 +1,26 @@
-# Portfolio
+# Portfolio (archive)
 
-> *Work in progress.*
+Responsive layout with Bootstrap 5.
 
-## Introduction
+---
 
-Showcase website available on mobile, tablet and desktop. Display an overview of my projects with links to the source code.
+## Installation
 
-### Features
+Clone the repository
 
-- Multi-lingual website based on browser languages (english and french supported).
-- Responsive with Bootstrap 5.
-- Use HTML semantics for SEO.
+```bash
+git clone https://github.com/kserbouty/portfolio-bootstrap.git
+```
 
-## Authors
+Switch to the repository folder
 
-Karim Serbouty
+```bash
+cd portfolio-bootstrap
+```
+
+The index.html is available in the root directory.
+
+---
 
 ## License
 
